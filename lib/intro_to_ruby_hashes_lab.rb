@@ -2,7 +2,6 @@ def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
   {:name => "Grace Hopper", :id => 5, "age" => 39}
 end
-puts my_hash_creator(key, value)
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
